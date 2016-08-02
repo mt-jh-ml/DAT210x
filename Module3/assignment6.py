@@ -7,14 +7,15 @@ import matplotlib.pyplot as plt
 # It's located at 'Datasets/wheat.data'
 # 
 # .. your code here ..
-df = df.read_csv ('Datasets/wheat.data')
-print df.head ()
+wheat = df.read_csv ('Datasets/wheat.data')
+print wheat.head ()
 
 #
 # TODO: Drop the 'id' feature
 # 
 # .. your code here ..
-df = df.drop (labels = ['id'], axis = 1)
+#df = df.drop (labels = ['id'], axis = 1)
+wheat = wheat.drop (labels = ['id'], axis = 1)
 
 #
 # TODO: Compute the correlation matrix of your dataframe
