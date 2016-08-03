@@ -13,14 +13,14 @@ matplotlib.style.use('ggplot')
 # It's located at 'Datasets/wheat.data'
 # 
 # .. your code here ..
-df = pd.read_csv ('Datasets/wheat.data')
-print df.head ()
+wheat = pd.read_csv ('Datasets/wheat.data')
+print wheat.head ()
 
 #
 # TODO: Drop the 'id', 'area', and 'perimeter' feature
 # 
 # .. your code here ..
-df = df.drop (labels=['id'], axis = 1)
+wheat = wheat.drop (labels=['id'], axis = 1)
 
 
 #
@@ -30,7 +30,7 @@ df = df.drop (labels=['id'], axis = 1)
 # 
 # .. your code here ..
 plt.figure()
-andrews_curves(df, 'wheat_type', alpha = 0.4)
+andrews_curves(wheat, 'wheat_type', alpha = 0.4)
 
 
 plt.show()
