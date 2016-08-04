@@ -10,21 +10,21 @@ matplotlib.style.use('ggplot')
 # It's located at 'Datasets/wheat.data'
 # 
 # .. your code here ..
-df = pd.read_csv ('./Datasets/wheat.data')
+wheat = pd.read_csv ('./Datasets/wheat.data')
 
 #
 # TODO: Create a slice of your dataframe (call it s1)
 # that only includes the 'area' and 'perimeter' features
 # 
 # .. your code here ..
-s1 = pd.concat ([df.area, df.perimeter], axis = 1)
+s1 = pd.concat ([wheat.area, wheat.perimeter], axis = 1)
 
 #
 # TODO: Create another slice of your dataframe (call it s2)
 # that only includes the 'groove' and 'asymmetry' features
 # 
 # .. your code here ..
-s2 = pd.concat ([df.groove, df.asymmetry], axis = 1)
+s2 = pd.concat ([wheat.groove, wheat.asymmetry], axis = 1)
 
 #
 # TODO: Create a histogram plot using the first slice,
