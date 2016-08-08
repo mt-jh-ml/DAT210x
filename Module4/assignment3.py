@@ -16,6 +16,7 @@ scaleFeatures = False
 # by now ;-)
 #
 # .. your code here ..
+# using df as dataframe
 df = pd.read_csv ('./Datasets/kidney_disease.csv')
 
 
