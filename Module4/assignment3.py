@@ -9,7 +9,7 @@ matplotlib.style.use('ggplot')
 
 # Do * NOT * alter this line, until instructed!
 scaleFeatures = False
-
+#scaleFeatures = True
 
 # TODO: Load up the dataset and remove any and all
 # Rows that have a nan. You should be a pro at this
