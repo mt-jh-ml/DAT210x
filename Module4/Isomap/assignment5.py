@@ -141,3 +141,6 @@ plt.show()
 # What is the arrangement of the newly added, red samples?
 # Isomap rendered the result as a straight line, intersecting the original manifold Isomap rendered the result as a
 # straight line, intersecting the original manifold.
+
+
+# Completed
